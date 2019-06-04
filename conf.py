@@ -22,10 +22,12 @@ pygments_style = 'sphinx'
 htmlhelp_basename = 'con-due-files'
 html_theme = 'sphinx_rtd_theme'
 file_insertion_enabled = False
-#latex_documents = [
-#  ('index', 'con-due-files.tex', u'con_due_files Documentation',
-#   u'', 'manual'),
-#]
+latex_engine = 'xelatex'
+latex_use_xindy = False
+latex_documents = [
+  ('index', 'con-due-files.tex', u'con_due_files Documentation',
+   u'', 'manual'),
+]
 
 
 
