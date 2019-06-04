@@ -13,19 +13,19 @@ source_parsers = {
             '.md': CommonMarkParser,
         }
 master_doc = 'index'
-project = u'con_due_files'
+project = u'con_confpy_3'
 copyright = str(datetime.now().year)
 version = 'latest'
 release = 'latest'
 exclude_patterns = ['_build']
 pygments_style = 'sphinx'
-htmlhelp_basename = 'con-due-files'
+htmlhelp_basename = 'con_confpy_3'
 html_theme = 'sphinx_rtd_theme'
 file_insertion_enabled = False
 latex_engine = 'xelatex'
 latex_use_xindy = False
 latex_documents = [
-  ('index', 'con-due-files.tex', u'con_due_files Documentation',
+  ('index', 'con-due-files.tex', u'con_confpy_3 Documentation',
    u'', 'manual'),
 ]
 
