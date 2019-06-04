@@ -1,6 +1,0 @@
-# .readthedocs.yml
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-
-# Optionally build your docs in additional formats such as PDF and ePub
-formats: htmlzip
